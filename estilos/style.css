@@ -38,7 +38,6 @@ section#login {
     transition: width .1s, height .1s;
     transition-timing-function: ease;
     transform: translate(-50%, -50%);
-
 }   
 
 section#login > div#imagem {
@@ -88,8 +87,7 @@ div.campo > input {
     border-radius: 5px;
     border: 0px;
     padding: 4px;
-    transform: translateY(-42px) translate(44px);
-
+    transform: translateY(-42px) translate(44px);=
 }
 
 div.campo > input:focus-within{
