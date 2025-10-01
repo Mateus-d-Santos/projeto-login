@@ -8,6 +8,7 @@
 
     section#login{
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem{
@@ -30,9 +31,6 @@
         font-size: 1em;
     }
 
-    div.campo > label{
-        display: inline-block;
-    }
 }
 
 @media screen  and (min-width: 992px){
@@ -42,6 +40,7 @@
 
     section#login {
         width: 950px;
+        height: 380px;
     }
 
     section#login > div#imagem{
@@ -59,10 +58,8 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 
-    div.campo > label{
-        display: inline-block;
-    }
 }
